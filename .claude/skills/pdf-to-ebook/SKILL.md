@@ -3,6 +3,7 @@ name: pdf-to-ebook
 description: Convert a PDF file to ebook formats (epub, mobi, azw3/Kindle) using Calibre. Use when the user wants to convert a PDF to an ebook format.
 argument-hint: <input.pdf> [epub|mobi|azw3|all]
 disable-model-invocation: true
+user-invocable: true
 allowed-tools: Bash
 ---
 
